@@ -1,0 +1,16 @@
+Exercício - Modelagem
+
+O paradigma mais indicado para implementar o sistema de gerenciamento da biblioteca é a Programação Orientada a Objetos (POO).
+
+Justificativa:
+A POO permite representar os elementos do sistema (livros, autores, usuários, empréstimos e devoluções) como objetos reais, cada um com atributos (propriedades) e comportamentos (métodos). Isso facilita o entendimento do sistema, o reuso de código e a manutenção.
+
+Cada classe representa uma entidade do mundo real — por exemplo:
+- A classe Livro contém título, gênero e autor.
+- A classe Autor contém nome e nacionalidade.
+- A classe Usuário contém nome, idade e histórico de empréstimos.
+- A classe Empréstimo registra datas e relaciona usuário e livro.
+
+A POO também facilita a evolução do sistema, pois novas funcionalidades podem ser adicionadas sem modificar diretamente o código existente. Além disso, o uso de herança, encapsulamento e associações entre classes torna o sistema mais eficiente e organizado.
+
+Portanto, o paradigma mais adequado é a Programação Orientada a Objetos.
